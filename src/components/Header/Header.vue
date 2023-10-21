@@ -2,7 +2,7 @@
     <header>
         <div class="container mx-auto">
             <div class="h-[70px] flex justify-beetwen items-center gap-6">
-                <div class="w-1/2 flex justify-center md:justify-between md:ml-5 lg:ml-0 items-center gap-10">
+                <div class="w-1/2 md:w-[70%] flex justify-center md:justify-between md:ml-5 lg:ml-0 items-center gap-10">
                     <div class="flex items-center">
                         <img src="../../assets/images/logo.svg" alt="">
                         <h2 class="text-[24px] ml-2"><b>fast</b><span>home</span></h2>
@@ -14,7 +14,7 @@
                     <a href="#" class="text-[14px] font-Roboto hidden lg:block">Noturar</a>
                     <a href="#" class="text-[14px] font-Roboto hidden lg:block">Loyihalar</a>
                 </div>
-                <div class="w-1/2 grid justify-end mr-5 md:mr-0 items-center lg:hidden">
+                <div class="w-1/2 md:w-[30%] grid justify-end mr-5 md:mr-0 items-center lg:hidden">
                   <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button"><i class='bx bx-menu text-3xl'></i>
                   </button>
                   <!-- Dropdown menu -->
