@@ -1,7 +1,7 @@
 <template>
-    <footer class="bg-[#2D363C] py-10 ">
+    <footer class="bg-[#2D363C] py-10 mt-5">
         <div class="container mx-auto grid justify-center md:flex md:justify-center gap-6 md:gap-[70px] lg:gap-[326px] ">
-            <div class="text-white text-center md:text-left">
+            <div class="text-white ml-14 md:ml-0 md:text-left">
                 <h3 class="text-[18px] py-5 font-[600]">Uydagi ovqat</h3>
                 <div class="text-[14px]">
                     <p>Biz haqimizda</p>
@@ -12,7 +12,7 @@
                     <p>Sayt xaritasi</p>
                 </div>
             </div>
-            <div class="text-white text-center md:text-left">
+            <div class="text-white ml-14 md:ml-0 md:text-left">
                 <h3 class="text-[18px] py-5 font-[600]">Bizning xizmatlarimiz</h3>
                 <div class="text-[14px]">
                     <p>Bizning maxsus xizmatlarimiz</p>
@@ -23,7 +23,7 @@
                     <p>Xaritada qidirish</p>
                 </div>
             </div>
-            <div class="text-white text-center md:text-left">
+            <div class="text-white ml-14 md:ml-0 md:text-left">
                 <h3 class="text-[18px] py-5 font-[600]">Boshqalar</h3>
                 <div class="text-[14px]">
                     <p>E'lon qilish qoidalari</p>

@@ -7,6 +7,7 @@
                         <img src="../../assets/images/logo.svg" alt="">
                         <h2 class="text-[24px] ml-2"><b>fast</b><span>home</span></h2>
                     </div>
+                    <a href="#" class="text-[14px] font-Roboto hidden lg:block">Bosh sahifa</a>
                     <a href="#" class="text-[14px] font-Roboto hidden lg:block">Sotuvda</a>
                     <a href="#" class="text-[14px] font-Roboto hidden lg:block">Ijaraga</a>
                     <a href="#" class="text-[14px] font-Roboto hidden lg:block">Kunlik ijara</a>
