@@ -7,8 +7,8 @@
                         <img src="../../assets/images/logo.svg" alt="">
                         <h2 class="text-[24px] ml-2"><b>fast</b><span>home</span></h2>
                     </div>
-                    <a href="#" class="text-[14px] font-Roboto hidden lg:block">Bosh sahifa</a>
-                    <a href="#" class="text-[14px] font-Roboto hidden lg:block">Sotuvda</a>
+                    <a href="/" class="text-[14px] font-Roboto hidden lg:block">Bosh sahifa</a>
+                    <a href="/forsale" class="text-[14px] font-Roboto hidden lg:block">Sotuvda</a>
                     <a href="#" class="text-[14px] font-Roboto hidden lg:block">Ijaraga</a>
                     <a href="#" class="text-[14px] font-Roboto hidden lg:block">Kunlik ijara</a>
                     <a href="#" class="text-[14px] font-Roboto hidden lg:block">Noturar</a>
@@ -21,7 +21,10 @@
                   <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                       <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                         <li>
-                          <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sotuvda</a>
+                          <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Bosh sahifa</a>
+                        </li>
+                        <li>
+                          <a href="/forsale" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sotuvda</a>
                         </li>
                         <li>
                           <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ijaraga</a>
@@ -49,7 +52,7 @@
 
 <script setup>
   import { onMounted } from 'vue'
-  import { initDropdowns } from 'flowbite'
+  import { initDropdowns} from 'flowbite'
 
   onMounted(() => {initDropdowns()})
 </script>
